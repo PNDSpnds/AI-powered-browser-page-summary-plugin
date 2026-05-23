@@ -1,0 +1,26 @@
+{
+  "manifest_version": 3,
+  "name": "AI 页面净化器",
+  "version": "1.0.0",
+  "description": "AI 总结网页 + 自动去除弹窗/广告/登录墙",
+  "permissions": ["activeTab", "storage", "scripting"],
+  "host_permissions": ["https://api.deepseek.com/*"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "AI 页面净化器",
+    "default_popup": "popup/popup.html",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    }
+  },
+  "options_page": "options/options.html",
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  }
+}

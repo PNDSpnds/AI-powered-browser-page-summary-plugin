@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mkdir -p \"c:/Users/pnds2/OneDrive/Desktop/HTML Code/ai聚合插件/content\" \"c:/Users/pnds2/OneDrive/Desktop/HTML Code/ai聚合插件/options\" \"c:/Users/pnds2/OneDrive/Desktop/HTML Code/ai聚合插件/icons\")",
+      "WebFetch(domain:zhuanlan.zhihu.com)"
+    ],
+    "additionalDirectories": [
+      "c:\\Users\\pnds2\\OneDrive\\Desktop\\HTML Code\\ai聚合插件"
+    ]
+  }
+}
