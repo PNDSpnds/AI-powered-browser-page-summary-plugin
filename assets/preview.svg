@@ -1,0 +1,128 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1240 580" width="1240" height="580" role="img" aria-label="AI 页面净化器界面预览">
+  <title>AI 页面净化器 - 界面预览</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#07091a"/>
+      <stop offset="0.5" stop-color="#110d2d"/>
+      <stop offset="1" stop-color="#1b1044"/>
+    </linearGradient>
+    <radialGradient id="halo" cx="0.5" cy="0.02" r="0.8">
+      <stop offset="0" stop-color="#7c3aed" stop-opacity="0.42"/>
+      <stop offset="1" stop-color="#7c3aed" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="halo2" cx="0.1" cy="1" r="0.6">
+      <stop offset="0" stop-color="#4f46e5" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#4f46e5" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="dots" width="26" height="26" patternUnits="userSpaceOnUse">
+      <circle cx="1.4" cy="1.4" r="1.4" fill="#ffffff" opacity="0.06"/>
+    </pattern>
+    <linearGradient id="btn" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#4f46e5"/>
+      <stop offset="1" stop-color="#7c3aed"/>
+    </linearGradient>
+    <linearGradient id="head" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#4f46e5"/>
+      <stop offset="1" stop-color="#7c3aed"/>
+    </linearGradient>
+    <filter id="shadow" x="-40%" y="-40%" width="180%" height="200%">
+      <feGaussianBlur stdDeviation="18"/>
+    </filter>
+    <filter id="shadowSm" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="5"/>
+    </filter>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0 0 L10 5 L0 10 Z" fill="#6d5fa8"/>
+    </marker>
+    <style>
+      .ui { font-family: 'Segoe UI','Microsoft YaHei UI','Microsoft YaHei','PingFang SC',sans-serif; }
+      .note { font-size: 13px; fill: #6f6a8f; letter-spacing: 0.5px; }
+      .pop-title { font-size: 14px; font-weight: 700; fill: #1a1a2e; }
+      .pop-sub { font-size: 11px; fill: #999999; }
+      .btn-text { font-size: 16px; font-weight: 700; fill: #ffffff; }
+      .pop-link { font-size: 11px; fill: #999999; }
+      .url { font-size: 11px; fill: #64748b; }
+      .h-label { font-size: 10px; letter-spacing: 2px; fill: #ffffff; opacity: 0.8; }
+      .h-title { font-size: 20px; font-weight: 700; fill: #ffffff; }
+      .h-meta { font-size: 11px; fill: #ffffff; opacity: 0.78; }
+      .card-h { font-size: 12px; font-weight: 700; fill: #4f46e5; }
+      .body { font-size: 12px; fill: #1a1a2e; }
+      .bullet { font-size: 12px; fill: #1a1a2e; }
+      .caption { font-size: 14px; fill: #94a3b8; }
+    </style>
+    <clipPath id="win"><rect x="370" y="70" width="800" height="440" rx="12"/></clipPath>
+    <clipPath id="page"><rect x="370" y="110" width="800" height="400"/></clipPath>
+  </defs>
+
+  <rect width="1240" height="580" fill="url(#bg)"/>
+  <rect width="1240" height="580" fill="url(#halo)"/>
+  <rect width="1240" height="580" fill="url(#halo2)"/>
+  <rect width="1240" height="580" fill="url(#dots)"/>
+  <text x="70" y="44" class="ui note">界面预览 · 按实际配色与布局绘制</text>
+  <text x="1170" y="44" text-anchor="end" class="ui note">Chrome / Edge · Manifest V3</text>
+
+  <!-- ===== 弹窗 ===== -->
+  <rect x="76" y="160" width="240" height="252" rx="16" fill="#000000" opacity="0.5" filter="url(#shadow)"/>
+  <rect x="70" y="150" width="240" height="252" rx="14" fill="#fafafa" stroke="#d9dbe8" stroke-width="1"/>
+  <circle cx="288" cy="172" r="5" fill="none" stroke="#8b8b9e" stroke-width="1.4"/>
+  <g stroke="#8b8b9e" stroke-width="1.4">
+    <line x1="288" y1="162" x2="288" y2="164"/>
+    <line x1="288" y1="180" x2="288" y2="182"/>
+    <line x1="278" y1="172" x2="280" y2="172"/>
+    <line x1="296" y1="172" x2="298" y2="172"/>
+    <line x1="281" y1="165" x2="282.5" y2="166.5"/>
+    <line x1="293.5" y1="177.5" x2="295" y2="179"/>
+    <line x1="295" y1="165" x2="293.5" y2="166.5"/>
+    <line x1="282.5" y1="177.5" x2="281" y2="179"/>
+  </g>
+  <path d="M196 176 L181 197 L190 197 L187 211 L203 189 L194 189 Z" fill="url(#btn)"/>
+  <text x="190" y="228" text-anchor="middle" class="ui pop-title">AI 页面净化器</text>
+  <text x="190" y="245" text-anchor="middle" class="ui pop-sub">总结 + 去广告弹窗</text>
+  <rect x="96" y="262" width="188" height="47" rx="12" fill="#000000" opacity="0.25" filter="url(#shadowSm)"/>
+  <rect x="90" y="256" width="200" height="47" rx="12" fill="url(#btn)"/>
+  <text x="190" y="285" text-anchor="middle" class="ui btn-text">AI 总结</text>
+  <line x1="90" y1="351" x2="290" y2="351" stroke="#eeeeee" stroke-width="1"/>
+  <text x="190" y="372" text-anchor="middle" class="ui pop-link">设置 API Key</text>
+
+  <!-- ===== 流程箭头 ===== -->
+  <line x1="318" y1="276" x2="358" y2="276" stroke="#6d5fa8" stroke-width="2" stroke-dasharray="5 5" marker-end="url(#arrow)"/>
+
+  <!-- ===== 浏览器窗口 ===== -->
+  <rect x="378" y="86" width="800" height="440" rx="14" fill="#000000" opacity="0.5" filter="url(#shadow)"/>
+  <g clip-path="url(#win)">
+    <rect x="370" y="70" width="800" height="440" fill="#f8f9fa"/>
+    <rect x="370" y="70" width="800" height="40" fill="#eceff6"/>
+    <circle cx="394" cy="90" r="5" fill="#c3cad9"/>
+    <circle cx="412" cy="90" r="5" fill="#c3cad9"/>
+    <circle cx="430" cy="90" r="5" fill="#c3cad9"/>
+    <rect x="470" y="79" width="520" height="22" rx="11" fill="#ffffff"/>
+    <text x="484" y="94" class="ui url">example.com/blog/ai-summary</text>
+
+    <g clip-path="url(#page)">
+      <rect x="370" y="110" width="800" height="400" fill="#f8f9fa"/>
+
+      <rect x="458" y="146" width="640" height="92" rx="14" fill="#111111" opacity="0.16" filter="url(#shadowSm)"/>
+      <rect x="450" y="134" width="640" height="92" rx="14" fill="url(#head)"/>
+      <text x="472" y="160" class="ui h-label">AI 总结</text>
+      <text x="472" y="188" class="ui h-title">如何把长网页压缩成一页摘要</text>
+      <text x="472" y="209" class="ui h-meta">example.com · 刚刚生成</text>
+
+      <rect x="450" y="242" width="640" height="86" rx="12" fill="#ffffff"/>
+      <text x="472" y="266" class="ui card-h">一句话总结</text>
+      <text x="472" y="291" class="ui body">把冗长的网页正文交给 AI，几秒就能拿到结论、要点与细节。</text>
+
+      <rect x="450" y="344" width="640" height="146" rx="12" fill="#ffffff"/>
+      <text x="472" y="368" class="ui card-h">关键要点</text>
+      <circle cx="476" cy="392" r="2.5" fill="#4f46e5"/>
+      <text x="486" y="396" class="ui bullet">自动清除 Cookie 横幅、登录弹窗与广告位</text>
+      <circle cx="476" cy="418" r="2.5" fill="#4f46e5"/>
+      <text x="486" y="422" class="ui bullet">正文提取：剔除导航、评论、侧栏与页脚</text>
+      <circle cx="476" cy="444" r="2.5" fill="#4f46e5"/>
+      <text x="486" y="448" class="ui bullet">结构化摘要 + 明暗主题，一页读完</text>
+    </g>
+  </g>
+  <rect x="370" y="70" width="800" height="440" rx="12" fill="none" stroke="#3a3560" stroke-width="1"/>
+
+  <text x="190" y="545" text-anchor="middle" class="ui caption">① 弹窗 · 一键触发</text>
+  <text x="770" y="545" text-anchor="middle" class="ui caption">② 结果 · 整页摘要，随时返回原页面</text>
+</svg>
